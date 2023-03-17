@@ -11,7 +11,7 @@ if [ ! $ethRpc ]; then
 	echo -e "${err}RPC variable is empty! / Переменная RPC пустая! ${end}" && sleep 1
     exit 1
 else
-    echo -e "${fmt}Your node name - ${NIBIRU_NAME} ${end}" && sleep 1
+    echo -e "${fmt}Your RPC - ${ethRpc} ${end}" && sleep 1
 fi
 
 sudo apt update
