@@ -8,9 +8,8 @@ err="\e[31m"
 scss="\e[32m"
 
 if [ ! $ethRpc ]; then
-	echo -e "${err}You don't RPC variable! / Нет переменной RPC! ${end}" && sleep 1
+	echo -e "${err}RPC variable is empty! / Переменная RPC пустая! ${end}" && sleep 1
     exit 1
-
 else
     echo -e "${fmt}Your node name - ${NIBIRU_NAME} ${end}" && sleep 1
 fi
