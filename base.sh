@@ -17,6 +17,9 @@ fi
 sudo apt update
 sudo apt install ufw
 
+sudo ufw allow 8545
+sudo ufw allow 8546
+
 wget https://raw.githubusercontent.com/fackNode/requirements/main/docker.sh && chmod +x docker.sh && ./docker.sh
 
 git clone https://github.com/base-org/node.git
